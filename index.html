@@ -1,0 +1,181 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Email Landing Page | Good Beans</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<!-- FAV ICON -->
+	<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
+	<!-- SPLIDE CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+	<!-- MAIN CSS -->
+	<link rel="stylesheet" href="/sass/main.css">
+	<!-- GOOGLE FONTS -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Source+Sans+Pro&family=Staatliches&display=swap"
+		rel="stylesheet">
+	<!-- GOOGLE FONTS -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+
+	<!-- MAIN WHOLE PAGE -->
+	<main>
+		<section class="section-cont">
+			<section class="section-1">
+				<div class="splide">
+					<div class="splide__track">
+						<ul class="splide__list">
+							<li class="splide__slide">
+								<!-- CAROUSEL CELL 1 -->
+								<div>
+									<div>
+										<div class="img-cont">
+											<img src="/images/coffeebag-01.png"
+												alt="coffebag-01">
+										</div>
+										<div class="desc">
+											<div class="headbtn">
+												<h1>Riqueza Blenc</h1>
+												<button>GET NOW!</button>
+											</div>
+											<h3>$85.00 | 5 lb.</h3>
+											<p>Dark roast lovers, rejoice: this cup is just as bold as can be, while
+												keeping its remarkably sweet chocolaty notes. Perfect as-is, or with
+												your milk of choice.</p>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="splide__slide">
+								<!-- CAROUSEL CELL 2 -->
+								<div>
+									<div>
+										<div>
+											<div class="img-cont">
+												<img src="/images/coffeebag-02.png"
+													alt="coffebag-01">
+											</div>
+											<div class="desc">
+												<div class="headbtn">
+													<h1>Riqueza Blenc</h1>
+													<button>GET NOW!</button>
+												</div>
+												<h3>$85.00 | 5 lb.</h3>
+												<p>Dark roast lovers, rejoice: this cup is just as bold as can be, while
+													keeping its remarkably sweet chocolaty notes. Perfect as-is, or with
+													your milk of choice.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="splide__slide">
+								<!-- CAROUSEL CELL 3 -->
+								<div>
+									<div>
+										<div>
+											<div class="img-cont">
+												<img src="/images/coffeebag-03.png"
+													alt="coffebag-01">
+											</div>
+											<div class="desc">
+												<div class="headbtn">
+													<h1>Riqueza Blenc</h1>
+													<button>GET NOW!</button>
+												</div>
+												<h3>$85.00 | 5 lb.</h3>
+												<p>Dark roast lovers, rejoice: this cup is just as bold as can be, while
+													keeping its remarkably sweet chocolaty notes. Perfect as-is, or with
+													your milk of choice.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="splide__slide">
+								<!-- CAROUSEL CELL 4 -->
+								<div>
+									<div>
+										<div>
+											<div class="img-cont">
+												<img src="/images/coffeebag-04.png"
+													alt="coffebag-01">
+											</div>
+											<div class="desc">
+												<div class="headbtn">
+													<h1>Riqueza Blenc</h1>
+													<button>GET NOW!</button>
+												</div>
+												<h3>$85.00 | 5 lb.</h3>
+												<p>Dark roast lovers, rejoice: this cup is just as bold as can be, while
+													keeping its remarkably sweet chocolaty notes. Perfect as-is, or with
+													your milk of choice.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>	
+			<!-- SECTION #2 -->
+			<section class="section-2">
+
+				<!-- Signup Form -->
+				<form method="post" action="#">
+					<!-- Header -->
+					<div>
+						<h1>NEWSLETTER</h1>
+						<p>For promotion, discounts or for new updates</p>
+					</div>
+					<input type="email" name="email" placeholder="Email Address" />
+					<input class="sign-up" type="submit" value="Sign Up" />
+					<!-- ICONS -->
+					<ul class="icons">
+						<li><a href="#" class="twitter"><img width="35" height="auto" src="/images/twitter-icon.png"
+									alt="twitter"></a></li>
+						<li><a href="#" class="instagram"><img width="35" height="auto" src="/images/instagram-icon.png"
+									alt="instagram-icon"></a></li>
+						<li><a href="#" class="email"><img width="35" height="auto" src="/images/email-icon.png"
+									alt="email-icon"></a></li>
+					</ul>
+				</form>
+			</section>
+		</section>
+	</main>
+
+	<!-- FOOTER -->
+	<footer>
+		<div class="f-1">
+			<img width="125" height="auto" src="/images/logo.png" alt="good-beans-logo">
+		</div>
+		<div class="f-2">
+			<div>
+				<img width="90" height="auto" src="/images/promotion-bag.png" alt="promotion-bag">
+			</div>
+			<div>
+				<p>30% OFF YOUR FIRST ODER</p>
+			</div>
+		</div>
+		<div class="f-3">
+			<p>&copy; ALL RIGHTS RESEVERD. WEBSITE <a href="http://html5up.net">GOOD BEANS</p>
+		</div>
+	</footer>
+
+	<!-- SPLIDE -->
+	<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+	<script>
+		new Splide('.splide', {
+			perPage: 1,
+			type: 'loop',
+			width: '100%',
+		}).mount();
+	</script>
+</body>
+
+</html>

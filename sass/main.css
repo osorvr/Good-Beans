@@ -1,0 +1,277 @@
+h1 {
+  font-family: "Staatliches", cursive;
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+
+p {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+
+button {
+  margin-top: 0.5rem;
+  color: white;
+  background-color: #f53c32;
+  border-style: none;
+  height: 3rem;
+  width: 6rem;
+  border-radius: 0.5rem;
+  font-family: "Source Sans Pro", sans-serif;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+button:hover {
+  -webkit-transition: ease-out;
+  transition: ease-out;
+  background-color: #000000;
+  color: white;
+  opacity: 1;
+}
+
+*,
+html,
+body {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  line-height: 1.5;
+}
+
+body {
+  width: 100%;
+  background-image: url(/images/upside-down.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+
+main {
+  min-height: 90vh;
+  background-image: url(/images/main-bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-position-x: right;
+}
+
+.section-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 90vh;
+}
+
+.section-1 {
+  width: 50%;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin-top: 6rem;
+}
+
+.splide .img-cont {
+  width: 60%;
+  margin: auto;
+}
+
+.splide .img-cont img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+
+.splide .desc {
+  width: 60%;
+  margin: auto;
+}
+
+.splide .desc .headbtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.splide .desc .headbtn h1 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 80%;
+          flex: 0 1 80%;
+}
+
+.splide .desc .headbtn button {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 20%;
+          flex: 0 1 20%;
+}
+
+.splide .desc p {
+  padding-top: 0.5rem;
+}
+
+.splide__pagination {
+  display: none;
+}
+
+.splide__arrow--next {
+  right: 10rem;
+}
+
+.splide__arrow--prev {
+  left: 10rem;
+}
+
+@media all and (max-width: 620px) {
+  .img-cont {
+    min-width: 100%;
+    padding: 1rem;
+  }
+  .desc {
+    min-width: 100%;
+    padding: 1rem;
+  }
+  .splide__arrow--next {
+    display: none;
+  }
+  .splide__arrow--prev {
+    display: none;
+  }
+}
+
+.section-2 {
+  margin-top: 6rem;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 40%;
+          flex: 0 1 40%;
+}
+
+footer {
+  min-height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  background-color: black;
+  color: white;
+  border-radius: 2rem 2rem 0 0;
+}
+
+.f-1 {
+  text-align: center;
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.f-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.f-2 p {
+  font-family: "Staatliches", cursive;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.f-3 {
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+  text-align: center;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+a {
+  color: #f53c32;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+a:hover {
+  color: white;
+}
+
+form {
+  background-color: rgba(0, 0, 0, 0.973);
+  color: white;
+  padding: 5rem;
+  margin: 2rem;
+  border-radius: 0.5rem;
+}
+
+.icofont-twitter {
+  color: white;
+}
+
+.sign-up {
+  margin-top: 0.5rem;
+  color: white;
+  background-color: #f53c32;
+  border-style: none;
+  height: 3rem;
+  width: 6rem;
+  border-radius: 0.5rem;
+  font-family: "Source Sans Pro", sans-serif;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.sign-up:hover {
+  -webkit-transition: ease-out;
+  transition: ease-out;
+  background-color: #ffffff;
+  color: black;
+  opacity: 1;
+}
+
+input {
+  height: 3rem;
+  width: 15rem;
+}
+
+.icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  margin: 1rem;
+}
+/*# sourceMappingURL=main.css.map */
